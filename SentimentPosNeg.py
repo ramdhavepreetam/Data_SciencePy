@@ -28,5 +28,7 @@ test = [
     ('Gary is a friend of mine.', 'pos'),
     ("I can't believe I'm doing this.", 'neg')
 ]
+
+cl = NaiveBayesClassifier(train)
 # Test
 cl.classify("This is an amazing library!")
